@@ -73,6 +73,7 @@ input, select, textarea {
     .image img {
         display: block;
         width: 100%;
+        background-color: #f8edeb;
     }
 
     .image.avatar48 {
@@ -905,7 +906,7 @@ button,
         }
 
             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-                color: inherit;
+                color: #65818A;
             }
 
             #main > section.dark strong {
@@ -930,8 +931,20 @@ button,
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            background-image: url('./images/ie/pexels-steve-johnson-1484759.jpg');
+            /* opacity: 25%; */
+            filter: grayscale(75%);
         }
+        /* #overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(92, 92, 92);
+            mix-blend-mode: overlay;
+            z-index: 1;
+        } */
 
         #main > section.two {
             background-color: #f5fafa;
